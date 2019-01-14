@@ -363,11 +363,11 @@ margin: 20px;
 
     }
 
-    .features .about {
+    .features, .about {
         width: 100%;
     }
     
-    .services .product .vision {
+    .services, .product, .vision {
         width: 100%;
         align-self: center;
         height: auto;
@@ -376,6 +376,7 @@ margin: 20px;
 
     .three-sections p {
         width: 100%;
+        display: flex;
     }
 
 
